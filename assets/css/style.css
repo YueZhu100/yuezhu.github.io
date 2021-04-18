@@ -167,6 +167,9 @@ ul, li{
 .header{
     margin-top: 50px;
 }
+.header_rusume{
+    margin-top: 30px;
+}
 .text_highlight{
     color: tomato;
 }
@@ -219,12 +222,10 @@ ul, li{
     margin-bottom: 30px;
 }
 .cv_title{
+    /*
     float: left; 
-    margin-top: 10px;  
-}
-.edu .cv_title{
-    margin-right: 50px;
-    height: 300px;
+    */  
+    margin-top: 16px;  
 }
 .cv, .skill_box{
     padding-top: 20px;
@@ -234,20 +235,14 @@ ul, li{
     margin-bottom: 5px;
     display: block;
 }
-.exp .cv_title{
-    height: 700px;
-    margin-right: 40px;
-}
-.skill .cv_title{
-    height: 300px;
-    margin-right: 106px;
-}
-.skill_box{
-    float: left;
-    margin-right: 50px;
+.cv_title h2{
+    color: rgb(65, 65, 65);
 }
 .sub_title{
     font-weight: bold;
+}
+.skill{
+    margin-top: 50px;
 }
 .skill_box td{
     padding: 10px;
